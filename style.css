@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: system-ui;
+}
+.calculadora{
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 234px;
+    height: 323px;
+    background-color: rgb(77, 77, 76);
+    border-radius: 5px;
+}
+.screen{
+    width:100% ;
+    height: 25.5%;
+    object-fit: inherit;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    color: white;
+
+}
+.screen .pltas{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    top: 5px;
+    left: 9px;
+
+}
+.screen .pltas p{
+    position: relative;
+    top: -3px;
+    left: 0px;
+    color: #00000081;
+}
+.screen .pltas button{
+    border-radius: 50% 50% 50% 50%;
+    color: rgba(0, 0, 0, 0.564);
+    width: 11.5px;
+    height: 11.5px;
+    border: 0ch;
+    justify-content: space-between;
+
+}
+.screen h1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    height: 85%;
+    position: relative;
+    top: 0%;
+    right: 5px;
+}
+.teclado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 74%;
+}
+.teclado button{
+    width: 57px;
+    height: 47px;
+    border: 0;
+    margin: 0.5px;
+    align-content: space-between;
+
+}
+.teclado .j{
+    width: 115px;
+    border-radius: 0 0 0 5px;
+}
+.l{
+    border-radius: 0 0 5px 0;
+}
+.bc-org{
+    background-color: orange;
+    color: white;
+}
+.bc-gr{
+    background-color: #5a5650;
+    color: white;
+}
+.bc-sgr{
+    background-color: #807c74;
+    color: white;
+}
+.red{
+    background-color: rgb(255, 92, 92);
+}
+.org{
+    background-color: rgb(255, 198, 92);
+}
+.gre{
+    background-color: rgb(28, 189, 28);
+}
