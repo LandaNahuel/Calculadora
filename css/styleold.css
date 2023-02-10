@@ -37,11 +37,10 @@
     position: relative;
     top: -3px;
     left: 0px;
-    color: #00000081;
+    color: #00000000;
 }
-.screen .pltas button{
+.screen .pltas button {
     border-radius: 50% 50% 50% 50%;
-    color: rgba(0, 0, 0, 0.564);
     width: 11.5px;
     height: 11.5px;
     border: 0ch;
@@ -107,12 +106,33 @@
     background-color: #b3ac9f;
     height: 100%;
     align-items: center;}
-.red{
+.red :hover{
+    position: relative;
+    top: -3px;
+    left: 0px;
+    width: 11.5px;
+    height: 11.5px;
+    border: 0ch;
+    border-radius: 50% 50% 50% 50%;
     background-color: rgb(255, 92, 92);
 }
-.org{
+.org :hover{
+    position: relative;
+    top: -3px;
+    left: 0px;
+    width: 11.5px;
+    height: 11.5px;
+    border: 0ch;
+    border-radius: 50% 50% 50% 50%;
     background-color: rgb(255, 198, 92);
 }
-.gre{
+.gre :hover{
+    position: relative;
+    top: 5px;
+    left: 0px;
+    width: 11.5px;
+    height: 11.5px;
+    border: 0ch;
+    border-radius: 50% 50% 50% 50%;
     background-color: rgb(28, 189, 28);
 }
